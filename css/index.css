@@ -8,7 +8,8 @@ html{
 }
 body{
     margin: 0;
-    background-image: url("../img/main.jpg");
+    /* background-image: url("../img/main.jpg"); */
+    background-image: url("http://waonn.sakura.ne.jp/img/main.JPG");
 }
 
 #body{
