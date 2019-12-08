@@ -14,6 +14,8 @@
 
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta charset="utf-8">
+        <meta name="keywords" content="Eastergg,Lucy,VR,Oculus,OculusGo">
+        <meta name="description" content="This is an EasterEgg company web page. We create relaxed VR app. We will make you exciting, happy, and relaxed! Please check our VR app.">
         <title>EasterEgg</title>
         <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
         <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
