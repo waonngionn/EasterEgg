@@ -29,7 +29,7 @@
 
   <body style="padding-top:4.5rem;">
     <!-- header -->
-    <nav class="navbar navbar-expand navbar-light bg fixed-top" id="header">
+    <nav class="navbar navbar-expand navbar-light bg fixed-top">
       <a class="navbar-brand" href="/"><i class="fas fa-egg"></i>EasterEgg</a>
       <div class="collapse navbar-collapse" id="Navber">
         <ul class="navbar-nav mr-auto">
@@ -51,12 +51,12 @@
     <!-- body -->
     <div class="container">
       <div class="jumbotron mt-4 bg text-center">
-        <h1 class="display-4 title01"><span class="mr-2">VR</span><span class="cross">×</span><span class="ml-2">EasterEgg</span></h1>
+        <h1 class="display-4 title title01"><span class="mr-2">VR</span><span class="cross">×</span><span class="ml-2">EasterEgg</span></h1>
       </div>
     </div>
     <div class="container">
       <div class="jumbotron mt-4 bg">
-        <h1 class="display-4 title02">EasterEggの使命は、VRで世界中に感動を届けることです。</h1>
+        <h1 class="display-4 title title02">EasterEggの使命は、VRで世界中に感動を届けることです。</h1>
       </div>
     </div>
     <div class="container">
