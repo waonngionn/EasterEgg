@@ -29,8 +29,8 @@
 
   <body style="padding-top:4.5rem;">
     <!-- header -->
-    <nav class="navbar navbar-expand navbar-light bg fixed-top">
-      <a class="navbar-brand" href="/">EasterEgg</a>
+    <nav class="navbar navbar-expand navbar-light bg fixed-top" id="header">
+      <a class="navbar-brand" href="/"><i class="fas fa-egg"></i>EasterEgg</a>
       <div class="collapse navbar-collapse" id="Navber">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
@@ -50,8 +50,13 @@
     <!-- /header -->
     <!-- body -->
     <div class="container">
+      <div class="jumbotron mt-4 bg text-center">
+        <h1 class="display-4 title01"><span class="mr-2">VR</span><span class="cross">×</span><span class="ml-2">EasterEgg</span></h1>
+      </div>
+    </div>
+    <div class="container">
       <div class="jumbotron mt-4 bg">
-        <h1 class="display-4 title">EasterEggの使命は、世界中に感動を届けることです。</h1>
+        <h1 class="display-4 title02">EasterEggの使命は、VRで世界中に感動を届けることです。</h1>
       </div>
     </div>
     <div class="container">
@@ -61,7 +66,7 @@
         <div class="card-body">
           <h5 class="card-title">Lucy</h5>
           <p class="card-text">Lucyはあなたに感動を届けます。1000個のランタンが音楽に合わせて舞う姿は圧巻です。是非VRで体験していただきたいです。</p>
-          <a href="https://easteregg.itch.io/lucy" class="btn btn-warning">VRへ移動する</a>
+          <a href="https://easteregg.itch.io/lucy" class="btn">VRへ移動する</a>
         </div>
       </div>
     </div>
@@ -76,5 +81,4 @@
       crossorigin="anonymous"></script>
     <script src="./js/index.js"></script>
   </body>
-
 </html>

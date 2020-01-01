@@ -13,6 +13,10 @@ body{
 }
 
 /* header */
+.navbar{
+    background-color: rgb(255, 200, 0);
+    transition: all 1s ease-out;
+}
 .navbar-brand{
     font-size: 2.25rem;
 }
@@ -21,20 +25,26 @@ body{
 }
 /* /header */
 
-.title{
+.title01{
     opacity: 0;
     animation: titleAnimation 3s ease 1s forwards;
+}
+.title02{
+    opacity: 0;
+    animation: titleAnimation 3s ease 2.5s forwards;
 }
 
 @keyframes titleAnimation {
     0%{
         opacity: 0;
-        font-weight: 0;
     }
     100%{
         opacity: 1;
-        font-weight: 300;
     }
+}
+
+.btn{
+    background-color: rgb(255, 200, 0);
 }
 
 footer{
