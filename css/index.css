@@ -1,34 +1,42 @@
 html,body{
-    overflow: hidden;
-    height: 100%;
-    font-family: 'Hind', sans-serif;
-}
-html{
-    background-color: #000;
+    font-family: 'Didact Gothic', 'Hind', sans-serif;
+    /* background-color: rgb(255, 200, 0); */
+    background: -moz-linear-gradient(to bottom,rgb(255, 200, 0),#FFC778 60%,#F89174); 
+    background: -webkit-linear-gradient(to bottom,rgb(255, 200, 0),#FFC778 60%,#F89174); 
+    background: linear-gradient(to bottom,rgb(255, 200, 0),#FFC778 60%,#F89174); 
 }
 body{
     margin: 0;
-    /* background-image: url("../img/main.jpg"); */
-    background-image: url("https://waonn.sakura.ne.jp/photogeni/storage/main.JPG");
+}
+.bg{
+    background-color: rgba(0,0,0,0);
 }
 
-#body{
-    position: relative;
-    width: 100%; height:100%;
+/* header */
+.navbar-brand{
+    font-size: 2.25rem;
 }
-#box-logo{
-    position: absolute;
-    top: 40%; left: 50%;
-    transform: translate(-50%, -50%);
+.fab{
+    font-size: 1.5em;
 }
-#logo{
-    text-align: center;
-    color: #ddd;
+/* /header */
+
+.title{
+    opacity: 0;
+    animation: titleAnimation 3s ease 1s forwards;
 }
 
-#box-sns{
-    text-align: center;
+@keyframes titleAnimation {
+    0%{
+        opacity: 0;
+        font-weight: 0;
+    }
+    100%{
+        opacity: 1;
+        font-weight: 300;
+    }
 }
-.icon-color{
-    color: #ddd;
+
+footer{
+    width: 100%; height: 100px;
 }
