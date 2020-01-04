@@ -49,7 +49,7 @@
     </nav>
     <!-- /header -->
     <!-- body -->
-    <div class="container">
+    <div id="main-title-container" class="container">
       <div class="jumbotron mt-4 bg text-center">
         <h1 class="display-4 title title01"><span class="mr-2">VR</span><span class="cross">×</span><span class="ml-2">EasterEgg</span></h1>
       </div>

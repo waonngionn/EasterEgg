@@ -21,6 +21,10 @@ body{
 }
 /* /header */
 
+#main-title-container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 .title{
     transition: all 0.3s ease-out;
 }
