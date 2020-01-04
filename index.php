@@ -51,7 +51,7 @@
     <!-- body -->
     <div id="main-title-container" class="container">
       <div class="jumbotron mt-4 bg text-center">
-        <h1 class="display-4 title title01"><span class="mr-2">VR</span><span class="cross">×</span><span class="ml-2">EasterEgg</span></h1>
+        <h1 class="display-4 title title01"><span class="mr-1">VR</span><span class="cross">×</span><span class="ml-1">EasterEgg</span></h1>
       </div>
     </div>
     <div class="container">
@@ -72,7 +72,10 @@
     </div>
     <!-- /body -->
     <!-- footer -->
-    <footer class="bg mt-4">
+    <div id="pre-footer" class="bg mt-4">
+    </div>
+    <footer class="bg-white mt-4">
+      <label>EasterEgg</label>
     </footer>
     <!-- /footer -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
