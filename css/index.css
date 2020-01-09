@@ -16,7 +16,8 @@ body{
 .navbar-brand{
     font-size: 2.25rem;
 }
-.fab{
+.fab,
+.fas{
     font-size: 1.5em;
 }
 /* /header */
